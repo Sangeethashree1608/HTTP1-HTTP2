@@ -1,0 +1,17 @@
+HTTP1-->
+
+1. Loads resource one after the other.
+
+2. If the resource cannot be loaded it will block all the other resource behind it.
+
+3. It loads a single request for every TCP connection.
+
+HTTP2-->
+
+1. able to use a single TCP connection to send multiple streams of data at once.
+
+2. one resource will not block any other resource.
+
+3. It will reduce the page loading time. Hence the result is immediate.
+
+4. It is much faster and more reliable than HTTP1. Allows the user to have better web experience.
